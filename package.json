@@ -1,0 +1,19 @@
+{
+  "name": "playwrighttest",
+  "version": "1.0.0",
+  "description": "PlayWrightTest",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:report": "npx playwright show-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.43.1",
+    "dotenv": "^16.3.1"
+  }
+}
